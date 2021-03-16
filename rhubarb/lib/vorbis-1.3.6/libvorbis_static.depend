@@ -1,0 +1,423 @@
+# depslib dependency file v1.0
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/analysis.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"registry.h"
+	"scales.h"
+	"os.h"
+	"misc.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/include/vorbis/codec.h
+	<ogg/ogg.h>
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/codec_internal.h
+	"envelope.h"
+	"codebook.h"
+	"psy.h"
+	"bitrate.h"
+	"highlevel.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/envelope.h
+	"mdct.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/mdct.h
+	"vorbis/codec.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/codebook.h
+	<ogg/ogg.h>
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/psy.h
+	"smallft.h"
+	"backends.h"
+	"envelope.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/smallft.h
+	"vorbis/codec.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/backends.h
+	"codec_internal.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/bitrate.h
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"os.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/os.h
+	"config.h"
+	<math.h>
+	<ogg/os_types.h>
+	"misc.h"
+	<malloc.h>
+	<alloca.h>
+	<memory.h>
+	<emmintrin.h>
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/misc.h
+	"vorbis/codec.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/highlevel.h
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/registry.h
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/scales.h
+	<math.h>
+	"os.h"
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/bitrate.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"os.h"
+	"misc.h"
+	"bitrate.h"
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/block.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"window.h"
+	"mdct.h"
+	"lpc.h"
+	"registry.h"
+	"misc.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/window.h
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/lpc.h
+	"vorbis/codec.h"
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/codebook.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codebook.h"
+	"scales.h"
+	"misc.h"
+	"os.h"
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/envelope.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"os.h"
+	"scales.h"
+	"envelope.h"
+	"mdct.h"
+	"misc.h"
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/floor0.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"registry.h"
+	"lpc.h"
+	"lsp.h"
+	"codebook.h"
+	"scales.h"
+	"misc.h"
+	"os.h"
+	"misc.h"
+	<stdio.h>
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/lsp.h
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/floor1.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"registry.h"
+	"codebook.h"
+	"misc.h"
+	"scales.h"
+	<stdio.h>
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/info.c
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"codebook.h"
+	"registry.h"
+	"window.h"
+	"psy.h"
+	"misc.h"
+	"os.h"
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/lookup.c
+	<math.h>
+	"lookup.h"
+	"lookup_data.h"
+	"os.h"
+	"misc.h"
+	<stdio.h>
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/lookup.h
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/lookup_data.h
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/lpc.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"os.h"
+	"smallft.h"
+	"lpc.h"
+	"scales.h"
+	"misc.h"
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/lsp.c
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	"lsp.h"
+	"os.h"
+	"misc.h"
+	"lookup.h"
+	"scales.h"
+	"lookup.c"
+	"lookup.c"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/lookup.c
+	<math.h>
+	"lookup.h"
+	"lookup_data.h"
+	"os.h"
+	"misc.h"
+	<stdio.h>
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/mapping0.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"codebook.h"
+	"window.h"
+	"registry.h"
+	"psy.h"
+	"misc.h"
+	"os.h"
+	"lpc.h"
+	"lsp.h"
+	"envelope.h"
+	"mdct.h"
+	"psy.h"
+	"scales.h"
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/mdct.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"vorbis/codec.h"
+	"mdct.h"
+	"os.h"
+	"misc.h"
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/psy.c
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"masking.h"
+	"psy.h"
+	"os.h"
+	"lpc.h"
+	"smallft.h"
+	"scales.h"
+	"misc.h"
+	<stdio.h>
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/masking.h
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/registry.c
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"registry.h"
+	"misc.h"
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/res0.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"registry.h"
+	"codebook.h"
+	"misc.h"
+	"os.h"
+	<stdio.h>
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/sharedbook.c
+	<stdlib.h>
+	<limits.h>
+	<math.h>
+	<string.h>
+	<ogg/ogg.h>
+	"os.h"
+	"misc.h"
+	"vorbis/codec.h"
+	"codebook.h"
+	"scales.h"
+	<stdio.h>
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/smallft.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"smallft.h"
+	"os.h"
+	"misc.h"
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/synthesis.c
+	<stdio.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"registry.h"
+	"misc.h"
+	"os.h"
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/vorbisenc.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"vorbis/codec.h"
+	"vorbis/vorbisenc.h"
+	"codec_internal.h"
+	"os.h"
+	"misc.h"
+	"modes/setup_44.h"
+	"modes/setup_44u.h"
+	"modes/setup_44p51.h"
+	"modes/setup_32.h"
+	"modes/setup_8.h"
+	"modes/setup_11.h"
+	"modes/setup_16.h"
+	"modes/setup_22.h"
+	"modes/setup_X.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/include/vorbis/vorbisenc.h
+	"codec.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/setup_44.h
+	"modes/floor_all.h"
+	"modes/residue_44.h"
+	"modes/psych_44.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/floor_all.h
+	"vorbis/codec.h"
+	"backends.h"
+	"books/floor/floor_books.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/books/floor/floor_books.h
+	"codebook.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/residue_44.h
+	"vorbis/codec.h"
+	"backends.h"
+	"books/coupled/res_books_stereo.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/books/coupled/res_books_stereo.h
+	"codebook.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/psych_44.h
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/setup_44u.h
+	"modes/residue_44u.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/residue_44u.h
+	"vorbis/codec.h"
+	"backends.h"
+	"books/uncoupled/res_books_uncoupled.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/books/uncoupled/res_books_uncoupled.h
+	"codebook.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/setup_44p51.h
+	"modes/residue_44p51.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/residue_44p51.h
+	"vorbis/codec.h"
+	"backends.h"
+	"books/coupled/res_books_51.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/books/coupled/res_books_51.h
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/setup_32.h
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/setup_8.h
+	"psych_8.h"
+	"residue_8.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/psych_8.h
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/residue_8.h
+	"vorbis/codec.h"
+	"backends.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/setup_11.h
+	"psych_11.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/psych_11.h
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/setup_16.h
+	"psych_16.h"
+	"residue_16.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/psych_16.h
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/residue_16.h
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/setup_22.h
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/modes/setup_X.h
+
+1579657198 source:/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/vorbis-1.3.6/lib/window.c
+	<stdlib.h>
+	<math.h>
+	"os.h"
+	"misc.h"
+	"window.h"
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/ogg-1.3.3/include/ogg/ogg.h
+	<stddef.h>
+	<ogg/os_types.h>
+
+1579657198 /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/lib/ogg-1.3.3/include/ogg/os_types.h
+	<stdint.h>
+	<sys/types.h>
+	<stdint.h>
+	<inttypes.h>
+	<sys/types.h>
+	<inttypes.h>
+	<stdint.h>
+

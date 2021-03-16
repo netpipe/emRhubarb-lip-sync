@@ -1,0 +1,1303 @@
+# depslib dependency file v1.0
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/animationRules.cpp
+	"animationRules.h"
+	<boost/algorithm/clamp.hpp>
+	"shapeShorthands.h"
+	"tools/array.h"
+	"time/ContinuousTimeline.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/animationRules.h
+	<set>
+	"core/Shape.h"
+	"time/Timeline.h"
+	"core/Phone.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/core/Shape.h
+	"tools/EnumConverter.h"
+	<set>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/EnumConverter.h
+	<utility>
+	<map>
+	<vector>
+	<boost/algorithm/string.hpp>
+	<boost/optional.hpp>
+	<format.h>
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/cppformat/format.h
+	<stdint.h>
+	<cassert>
+	<cmath>
+	<cstddef>
+	<cstdio>
+	<algorithm>
+	<limits>
+	<stdexcept>
+	<string>
+	<sstream>
+	<map>
+	<iterator>
+	<intrin.h>
+	<utility>
+	"format.cc"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/cppformat/format.cc
+	"format.h"
+	<string.h>
+	<cctype>
+	<cerrno>
+	<climits>
+	<cmath>
+	<cstdarg>
+	<cstring>
+	<windows.h>
+	<windows.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/time/Timeline.h
+	"Timed.h"
+	<set>
+	<boost/optional.hpp>
+	<type_traits>
+	"tools/tools.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/time/Timed.h
+	"time/TimeRange.h"
+	<iostream>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/time/TimeRange.h
+	"centiseconds.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/time/centiseconds.h
+	<chrono>
+	<ostream>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/tools.h
+	<functional>
+	<memory>
+	<chrono>
+	<deque>
+	<string>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/core/Phone.h
+	"tools/EnumConverter.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/shapeShorthands.h
+	"core/Shape.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/array.h
+	<array>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/time/ContinuousTimeline.h
+	"BoundedTimeline.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/time/BoundedTimeline.h
+	"Timeline.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/mouthAnimation.cpp
+	"mouthAnimation.h"
+	"time/timedLogging.h"
+	"ShapeRule.h"
+	"roughAnimation.h"
+	"pauseAnimation.h"
+	"tweening.h"
+	"timingOptimization.h"
+	"targetShapeSet.h"
+	"staticSegments.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/mouthAnimation.h
+	"core/Phone.h"
+	"core/Shape.h"
+	"time/ContinuousTimeline.h"
+	"targetShapeSet.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/targetShapeSet.h
+	"core/Shape.h"
+	"ShapeRule.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/ShapeRule.h
+	"core/Phone.h"
+	"animationRules.h"
+	"time/BoundedTimeline.h"
+	"time/ContinuousTimeline.h"
+	"time/TimeRange.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/time/timedLogging.h
+	"centiseconds.h"
+	"TimeRange.h"
+	"Timed.h"
+	"logging/logging.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/logging/logging.h
+	"tools/EnumConverter.h"
+	"Sink.h"
+	"Level.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/logging/Sink.h
+	"Entry.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/logging/Entry.h
+	"Level.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/logging/Level.h
+	"tools/EnumConverter.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/roughAnimation.h
+	"ShapeRule.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/pauseAnimation.h
+	"core/Shape.h"
+	"time/ContinuousTimeline.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/tweening.h
+	"core/Shape.h"
+	"time/ContinuousTimeline.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/timingOptimization.h
+	"core/Shape.h"
+	"time/ContinuousTimeline.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/staticSegments.h
+	"core/Shape.h"
+	"time/ContinuousTimeline.h"
+	"ShapeRule.h"
+	<functional>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/pauseAnimation.cpp
+	"pauseAnimation.h"
+	"animationRules.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/roughAnimation.cpp
+	"roughAnimation.h"
+	<boost/optional.hpp>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/ShapeRule.cpp
+	"ShapeRule.h"
+	<boost/range/adaptor/transformed.hpp>
+	<utility>
+	"time/ContinuousTimeline.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/staticSegments.cpp
+	"staticSegments.h"
+	<vector>
+	<numeric>
+	"tools/nextCombination.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/nextCombination.h
+	<algorithm>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/targetShapeSet.cpp
+	"targetShapeSet.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/timingOptimization.cpp
+	"timingOptimization.h"
+	"time/timedLogging.h"
+	<boost/lexical_cast.hpp>
+	<map>
+	<algorithm>
+	"ShapeRule.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/animation/tweening.cpp
+	"tweening.h"
+	"animationRules.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/AudioClip.cpp
+	"AudioClip.h"
+	<format.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/AudioClip.h
+	<memory>
+	"time/TimeRange.h"
+	<functional>
+	"tools/Lazy.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/Lazy.h
+	<memory>
+	<mutex>
+	<functional>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/audioFileReading.cpp
+	"audioFileReading.h"
+	<format.h>
+	"WaveFileReader.h"
+	<boost/algorithm/string.hpp>
+	"OggVorbisFileReader.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/audioFileReading.h
+	<memory>
+	"AudioClip.h"
+	<boost/filesystem.hpp>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/WaveFileReader.h
+	<boost/filesystem/path.hpp>
+	"AudioClip.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/OggVorbisFileReader.h
+	"AudioClip.h"
+	<boost/filesystem/path.hpp>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/AudioSegment.cpp
+	"AudioSegment.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/AudioSegment.h
+	"AudioClip.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/DcOffset.cpp
+	"DcOffset.h"
+	<cmath>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/DcOffset.h
+	"AudioClip.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/OggVorbisFileReader.cpp
+	"OggVorbisFileReader.h"
+	"vorbis/codec.h"
+	"vorbis/vorbisfile.h"
+	"tools/tools.h"
+	<format.h>
+	"tools/fileTools.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/fileTools.h
+	"platformTools.h"
+	<fstream>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/platformTools.h
+	<boost/filesystem.hpp>
+	<ctime>
+	<string>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/processing.cpp
+	"processing.h"
+	<algorithm>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/processing.h
+	<vector>
+	<functional>
+	"AudioClip.h"
+	"tools/progress.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/progress.h
+	<functional>
+	<mutex>
+	<vector>
+	<memory>
+	<string>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/SampleRateConverter.cpp
+	<cmath>
+	"SampleRateConverter.h"
+	<stdexcept>
+	<format.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/SampleRateConverter.h
+	<memory>
+	"AudioClip.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/voiceActivityDetection.cpp
+	"voiceActivityDetection.h"
+	"DcOffset.h"
+	"SampleRateConverter.h"
+	"logging/logging.h"
+	"tools/pairs.h"
+	<boost/range/adaptor/transformed.hpp>
+	<webrtc/common_audio/vad/include/webrtc_vad.h>
+	"processing.h"
+	<gsl_util.h>
+	"tools/parallel.h"
+	<webrtc/common_audio/vad/vad_core.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/voiceActivityDetection.h
+	"AudioClip.h"
+	"time/BoundedTimeline.h"
+	"tools/progress.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/pairs.h
+	<vector>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/webrtc-8d2248ff/webrtc/common_audio/vad/include/webrtc_vad.h
+	<stddef.h>
+	"webrtc/typedefs.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/webrtc-8d2248ff/webrtc/typedefs.h
+	<stdint.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/gsl/include/gsl_util.h
+	"gsl_assert.h"
+	<array>
+	<utility>
+	<type_traits>
+	<exception>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/gsl/include/gsl_assert.h
+	<exception>
+	<stdexcept>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/parallel.h
+	<functional>
+	<future>
+	"progress.h"
+	<gsl_util.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/webrtc-8d2248ff/webrtc/common_audio/vad/vad_core.h
+	"webrtc/common_audio/signal_processing/include/signal_processing_library.h"
+	"webrtc/typedefs.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/webrtc-8d2248ff/webrtc/common_audio/signal_processing/include/signal_processing_library.h
+	<string.h>
+	"webrtc/typedefs.h"
+	"webrtc/common_audio/signal_processing/include/spl_inl.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/webrtc-8d2248ff/webrtc/common_audio/signal_processing/include/spl_inl.h
+	"webrtc/system_wrappers/include/compile_assert_c.h"
+	"webrtc/common_audio/signal_processing/include/spl_inl_armv7.h"
+	"webrtc/common_audio/signal_processing/include/spl_inl_mips.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/webrtc-8d2248ff/webrtc/system_wrappers/include/compile_assert_c.h
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/webrtc-8d2248ff/webrtc/common_audio/signal_processing/include/spl_inl_armv7.h
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/webrtc-8d2248ff/webrtc/common_audio/signal_processing/include/spl_inl_mips.h
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/WaveFileReader.cpp
+	<format.h>
+	"WaveFileReader.h"
+	"ioTools.h"
+	<iostream>
+	"tools/platformTools.h"
+	"tools/fileTools.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/ioTools.h
+	<fstream>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/waveFileWriting.cpp
+	<fstream>
+	"waveFileWriting.h"
+	"ioTools.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/audio/waveFileWriting.h
+	"AudioClip.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/core/Phone.cpp
+	"Phone.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/core/Shape.cpp
+	"Shape.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/exporters/DatExporter.cpp
+	"DatExporter.h"
+	"animation/targetShapeSet.h"
+	<boost/lexical_cast.hpp>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/exporters/DatExporter.h
+	"Exporter.h"
+	"core/Shape.h"
+	<map>
+	<string>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/exporters/Exporter.h
+	"core/Shape.h"
+	"time/ContinuousTimeline.h"
+	<boost/filesystem/path.hpp>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/exporters/exporterTools.cpp
+	"exporterTools.h"
+	"animation/targetShapeSet.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/exporters/exporterTools.h
+	"core/Shape.h"
+	"time/Timeline.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/exporters/JsonExporter.cpp
+	"JsonExporter.h"
+	"exporterTools.h"
+	"tools/stringTools.h"
+	<boost/filesystem.hpp>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/exporters/JsonExporter.h
+	"Exporter.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/stringTools.h
+	<vector>
+	<boost/lexical_cast.hpp>
+	<utf8proc.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/utf8proc-2.2.0/utf8proc.h
+	<stdlib.h>
+	<stddef.h>
+	<stdbool.h>
+	<inttypes.h>
+	<limits.h>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/exporters/TsvExporter.cpp
+	"TsvExporter.h"
+	"animation/targetShapeSet.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/exporters/TsvExporter.h
+	"Exporter.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/exporters/XmlExporter.cpp
+	"XmlExporter.h"
+	<boost/property_tree/ptree.hpp>
+	<boost/property_tree/xml_parser.hpp>
+	<boost/version.hpp>
+	"exporterTools.h"
+	<boost/filesystem.hpp>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/exporters/XmlExporter.h
+	"Exporter.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/lib/rhubarbLib.cpp
+	"rhubarbLib.h"
+	"core/Phone.h"
+	"tools/textFiles.h"
+	"animation/mouthAnimation.h"
+	"audio/audioFileReading.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/lib/rhubarbLib.h
+	"core/Shape.h"
+	"time/ContinuousTimeline.h"
+	"audio/AudioClip.h"
+	"tools/progress.h"
+	<boost/filesystem.hpp>
+	"animation/targetShapeSet.h"
+	"recognition/Recognizer.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/recognition/Recognizer.h
+	"audio/AudioClip.h"
+	"core/Phone.h"
+	"tools/progress.h"
+	"time/BoundedTimeline.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/textFiles.h
+	<boost/filesystem/path.hpp>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/logging/Entry.cpp
+	"Entry.h"
+	<thread>
+	<mutex>
+	<unordered_map>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/logging/formatters.cpp
+	"formatters.h"
+	<format.h>
+	"Entry.h"
+	"tools/tools.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/logging/formatters.h
+	"Formatter.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/logging/Formatter.h
+	<string>
+	"Entry.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/logging/Level.cpp
+	"Level.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/logging/logging.cpp
+	"logging.h"
+	"tools/tools.h"
+	<mutex>
+	"Entry.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/logging/sinks.cpp
+	"sinks.h"
+	<iostream>
+	"Entry.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/logging/sinks.h
+	"Sink.h"
+	<memory>
+	"Formatter.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/recognition/g2p.cpp
+	<g2p.h>
+	<regex>
+	"tools/stringTools.h"
+	"logging/logging.h"
+	"g2pRules.cpp"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/recognition/g2p.h
+	<vector>
+	"core/Phone.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/recognition/g2pRules.cpp
+
+1579661841 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/recognition/languageModels.cpp
+	"languageModels.h"
+	<boost/range/adaptor/map.hpp>
+	<vector>
+	<regex>
+	<map>
+	<tuple>
+	"tools/platformTools.h"
+	<boost/filesystem/fstream.hpp>
+	"core/appInfo.h"
+	<cmath>
+	<gsl_util.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/recognition/languageModels.h
+	<vector>
+	"tools/tools.h"
+	<pocketsphinx.h>
+	<ngram_search.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/include/pocketsphinx.h
+	<stdio.h>
+	<sphinxbase/cmd_ln.h>
+	<sphinxbase/logmath.h>
+	<sphinxbase/fe.h>
+	<sphinxbase/feat.h>
+	<pocketsphinx_export.h>
+	<cmdln_macro.h>
+	<ps_lattice.h>
+	<ps_mllr.h>
+	<ps_search.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/cmd_ln.h
+	<stdio.h>
+	<stdarg.h>
+	<sphinxbase/sphinxbase_export.h>
+	<sphinxbase/prim_type.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/sphinxbase_export.h
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/prim_type.h
+	<sphinx_config.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinx_config/sphinx_config.h
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/logmath.h
+	<sphinxbase/sphinxbase_export.h>
+	<sphinxbase/prim_type.h>
+	<sphinxbase/cmd_ln.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/fe.h
+	<sphinxbase/sphinxbase_export.h>
+	<sphinxbase/cmd_ln.h>
+	<sphinxbase/fixpoint.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/fixpoint.h
+	<limits.h>
+	<sphinxbase/sphinxbase_export.h>
+	<sphinxbase/prim_type.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/feat.h
+	<stdio.h>
+	<sphinxbase/sphinxbase_export.h>
+	<sphinxbase/prim_type.h>
+	<sphinxbase/fe.h>
+	<sphinxbase/cmn.h>
+	<sphinxbase/agc.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/cmn.h
+	<sphinxbase/sphinxbase_export.h>
+	<sphinxbase/prim_type.h>
+	<sphinxbase/fe.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/agc.h
+	<sphinxbase/sphinxbase_export.h>
+	<sphinxbase/prim_type.h>
+	<sphinxbase/fe.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/include/pocketsphinx_export.h
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/include/cmdln_macro.h
+	<sphinxbase/cmd_ln.h>
+	<sphinxbase/feat.h>
+	<sphinxbase/fe.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/include/ps_lattice.h
+	<sphinxbase/prim_type.h>
+	<sphinxbase/ngram_model.h>
+	<pocketsphinx_export.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/ngram_model.h
+	<stdarg.h>
+	<sphinxbase/sphinxbase_export.h>
+	<sphinxbase/prim_type.h>
+	<sphinxbase/cmd_ln.h>
+	<sphinxbase/logmath.h>
+	<sphinxbase/mmio.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/mmio.h
+	<sphinxbase/sphinxbase_export.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/include/ps_mllr.h
+	<sphinxbase/prim_type.h>
+	<sphinxbase/ngram_model.h>
+	<pocketsphinx_export.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/include/ps_search.h
+	<sphinxbase/fsg_model.h>
+	<sphinxbase/ngram_model.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/fsg_model.h
+	<stdio.h>
+	<string.h>
+	<sphinxbase/prim_type.h>
+	<sphinxbase/glist.h>
+	<sphinxbase/logmath.h>
+	<sphinxbase/bitvec.h>
+	<sphinxbase/hash_table.h>
+	<sphinxbase/listelem_alloc.h>
+	<sphinxbase/sphinxbase_export.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/glist.h
+	<stdlib.h>
+	<sphinxbase/sphinxbase_export.h>
+	<sphinxbase/prim_type.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/bitvec.h
+	<string.h>
+	<sphinxbase/sphinxbase_export.h>
+	<sphinxbase/prim_type.h>
+	<sphinxbase/ckd_alloc.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/ckd_alloc.h
+	<stdlib.h>
+	<setjmp.h>
+	<sphinxbase/sphinxbase_export.h>
+	<sphinxbase/prim_type.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/hash_table.h
+	<sphinxbase/sphinxbase_export.h>
+	<sphinxbase/prim_type.h>
+	<sphinxbase/glist.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/listelem_alloc.h
+	<stdlib.h>
+	<types.h>
+	<sphinxbase/sphinxbase_export.h>
+	<sphinxbase/prim_type.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/src/libpocketsphinx/ngram_search.h
+	<sphinxbase/cmd_ln.h>
+	<sphinxbase/logmath.h>
+	<sphinxbase/ngram_model.h>
+	<sphinxbase/listelem_alloc.h>
+	<sphinxbase/err.h>
+	"pocketsphinx_internal.h"
+	"hmm.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/err.h
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<sphinxbase/sphinxbase_export.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/src/libpocketsphinx/pocketsphinx_internal.h
+	<sphinxbase/cmd_ln.h>
+	<sphinxbase/fe.h>
+	<sphinxbase/feat.h>
+	<sphinxbase/hash_table.h>
+	<sphinxbase/logmath.h>
+	<sphinxbase/profile.h>
+	"pocketsphinx.h"
+	"acmod.h"
+	"dict.h"
+	"dict2pid.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/sphinxbase-rev13216/include/sphinxbase/profile.h
+	<stdio.h>
+	<sphinxbase/sphinxbase_export.h>
+	<sphinxbase/prim_type.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/src/libpocketsphinx/acmod.h
+	<stdio.h>
+	<sphinxbase/cmd_ln.h>
+	<sphinxbase/logmath.h>
+	<sphinxbase/fe.h>
+	<sphinxbase/feat.h>
+	<sphinxbase/bitvec.h>
+	<sphinxbase/err.h>
+	<sphinxbase/prim_type.h>
+	"ps_mllr.h"
+	"bin_mdef.h"
+	"tmat.h"
+	"hmm.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/src/libpocketsphinx/bin_mdef.h
+	<sphinxbase/mmio.h>
+	<sphinxbase/cmd_ln.h>
+	<pocketsphinx_export.h>
+	"mdef.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/src/libpocketsphinx/mdef.h
+	<stdio.h>
+	<sphinxbase/hash_table.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/src/libpocketsphinx/tmat.h
+	<stdio.h>
+	<sphinxbase/logmath.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/src/libpocketsphinx/hmm.h
+	<stdio.h>
+	<sphinxbase/fixpoint.h>
+	<sphinxbase/listelem_alloc.h>
+	"bin_mdef.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/src/libpocketsphinx/dict.h
+	<sphinxbase/hash_table.h>
+	"s3types.h"
+	"bin_mdef.h"
+	"pocketsphinx_export.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/src/libpocketsphinx/s3types.h
+	<float.h>
+	<assert.h>
+	<sphinxbase/prim_type.h>
+	<sphinxbase/err.h>
+	<sphinxbase/ckd_alloc.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/src/libpocketsphinx/dict2pid.h
+	<stdio.h>
+	<sphinxbase/logmath.h>
+	<sphinxbase/bitvec.h>
+	"s3types.h"
+	"bin_mdef.h"
+	"dict.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/core/appInfo.h
+	<string>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/recognition/PhoneticRecognizer.cpp
+	"PhoneticRecognizer.h"
+	"time/Timeline.h"
+	"audio/AudioSegment.h"
+	"audio/SampleRateConverter.h"
+	"audio/processing.h"
+	"time/timedLogging.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/recognition/PhoneticRecognizer.h
+	"Recognizer.h"
+	"pocketSphinxTools.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/recognition/pocketSphinxTools.h
+	"time/BoundedTimeline.h"
+	"core/Phone.h"
+	"audio/AudioClip.h"
+	"tools/progress.h"
+	<boost/filesystem/path.hpp>
+	<pocketsphinx.h>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/recognition/PocketSphinxRecognizer.cpp
+	"PocketSphinxRecognizer.h"
+	<regex>
+	<gsl_util.h>
+	"audio/AudioSegment.h"
+	"audio/SampleRateConverter.h"
+	"languageModels.h"
+	"tokenization.h"
+	"g2p.h"
+	"time/ContinuousTimeline.h"
+	"audio/processing.h"
+	"time/timedLogging.h"
+	<state_align_search.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/recognition/PocketSphinxRecognizer.h
+	"Recognizer.h"
+	"pocketSphinxTools.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/recognition/tokenization.h
+	<vector>
+	<functional>
+	<string>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/src/libpocketsphinx/state_align_search.h
+	<sphinxbase/prim_type.h>
+	"pocketsphinx_internal.h"
+	"ps_alignment.h"
+	"hmm.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/pocketsphinx-rev13216/src/libpocketsphinx/ps_alignment.h
+	<sphinxbase/prim_type.h>
+	"dict2pid.h"
+	"hmm.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/recognition/pocketSphinxTools.cpp
+	"pocketSphinxTools.h"
+	"tools/platformTools.h"
+	<regex>
+	"audio/DcOffset.h"
+	"audio/voiceActivityDetection.h"
+	"tools/parallel.h"
+	"tools/ObjectPool.h"
+	"time/timedLogging.h"
+	<sphinxbase/err.h>
+	<pocketsphinx_internal.h>
+	<ngram_search.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/ObjectPool.h
+	<memory>
+	<functional>
+	<stack>
+	<mutex>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/recognition/tokenization.cpp
+	"tokenization.h"
+	"tools/tools.h"
+	"tools/stringTools.h"
+	<regex>
+	<boost/optional/optional.hpp>
+	<cst_utt_utils.h>
+	<lang/usenglish/usenglish.h>
+	<lang/cmulex/cmu_lex.h>
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_utt_utils.h
+	"cst_hrg.h"
+	"cst_wave.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_hrg.h
+	"cst_file.h"
+	"cst_val.h"
+	"cst_features.h"
+	"cst_item.h"
+	"cst_relation.h"
+	"cst_utterance.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_file.h
+	<windows.h>
+	<winbase.h>
+	<PalmOS.h>
+	<System/StdIOPalm.h>
+	<stdio.h>
+	<windows.h>
+	<stdarg.h>
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_val.h
+	"cst_file.h"
+	"cst_string.h"
+	"cst_error.h"
+	"cst_alloc.h"
+	"cst_val_defs.h"
+	"cst_val_const.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_string.h
+	<string.h>
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_error.h
+	<stdlib.h>
+	<setjmp.h>
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_alloc.h
+	<windows.h>
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_val_defs.h
+	<stdlib.h>
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_val_const.h
+	"cst_val_defs.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_features.h
+	"cst_alloc.h"
+	"cst_val.h"
+	"cst_string.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_item.h
+	"cst_file.h"
+	"cst_features.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_relation.h
+	"cst_file.h"
+	"cst_val.h"
+	"cst_features.h"
+	"cst_item.h"
+	"cst_utterance.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_utterance.h
+	"cst_file.h"
+	"cst_val.h"
+	"cst_features.h"
+	"cst_item.h"
+	"cst_relation.h"
+	"cst_alloc.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_wave.h
+	"cst_file.h"
+	"cst_error.h"
+	"cst_alloc.h"
+	"cst_endian.h"
+	"cst_file.h"
+	"cst_val.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_endian.h
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4//lang/usenglish/usenglish.h
+	"cst_utterance.h"
+	"cst_cart.h"
+	"cst_val.h"
+	"cst_phoneset.h"
+	"cst_lexicon.h"
+	"cst_synth.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_cart.h
+	"cst_file.h"
+	"cst_val.h"
+	"cst_features.h"
+	"cst_item.h"
+	"cst_relation.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_phoneset.h
+	"cst_file.h"
+	"cst_val.h"
+	"cst_features.h"
+	"cst_item.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_lexicon.h
+	"cst_item.h"
+	"cst_lts.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_lts.h
+	"cst_val.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_synth.h
+	"cst_hrg.h"
+	"cst_tokenstream.h"
+	"cst_voice.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_tokenstream.h
+	"cst_alloc.h"
+	"cst_string.h"
+	"cst_file.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4/include/cst_voice.h
+	"cst_file.h"
+	"cst_val.h"
+	"cst_features.h"
+	"cst_utterance.h"
+	"cst_relation.h"
+
+1579657197 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/flite-1.4//lang/cmulex/cmu_lex.h
+	"cst_lexicon.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/rhubarb/ExportFormat.cpp
+	"ExportFormat.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/rhubarb/ExportFormat.h
+	"tools/EnumConverter.h"
+
+1579661939 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/rhubarb/main.cpp
+	<iostream>
+	<format.h>
+	<tclap/CmdLine.h>
+	"core/appInfo.h"
+	"tools/NiceCmdLineOutput.h"
+	"logging/logging.h"
+	"logging/sinks.h"
+	"logging/formatters.h"
+	<gsl_util.h>
+	"exporters/Exporter.h"
+	"time/ContinuousTimeline.h"
+	<boost/filesystem/operations.hpp>
+	"tools/stringTools.h"
+	<boost/range/adaptor/transformed.hpp>
+	<boost/filesystem/fstream.hpp>
+	"tools/parallel.h"
+	"tools/exceptions.h"
+	"tools/textFiles.h"
+	"lib/rhubarbLib.h"
+	"ExportFormat.h"
+	"exporters/DatExporter.h"
+	"exporters/TsvExporter.h"
+	"exporters/XmlExporter.h"
+	"exporters/JsonExporter.h"
+	"animation/targetShapeSet.h"
+	<boost/utility/in_place_factory.hpp>
+	"tools/platformTools.h"
+	"sinks.h"
+	"semanticEntries.h"
+	"RecognizerType.h"
+	"recognition/PocketSphinxRecognizer.h"
+	"recognition/PhoneticRecognizer.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/CmdLine.h
+	<tclap/SwitchArg.h>
+	<tclap/MultiSwitchArg.h>
+	<tclap/UnlabeledValueArg.h>
+	<tclap/UnlabeledMultiArg.h>
+	<tclap/XorHandler.h>
+	<tclap/HelpVisitor.h>
+	<tclap/VersionVisitor.h>
+	<tclap/IgnoreRestVisitor.h>
+	<tclap/CmdLineOutput.h>
+	<tclap/StdOutput.h>
+	<tclap/Constraint.h>
+	<tclap/ValuesConstraint.h>
+	<string>
+	<vector>
+	<list>
+	<iostream>
+	<iomanip>
+	<algorithm>
+	<stdlib.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/SwitchArg.h
+	<string>
+	<vector>
+	<tclap/Arg.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/Arg.h
+	<config.h>
+	<string>
+	<vector>
+	<list>
+	<iostream>
+	<iomanip>
+	<cstdio>
+	<sstream>
+	<strstream>
+	<tclap/ArgException.h>
+	<tclap/Visitor.h>
+	<tclap/CmdLineInterface.h>
+	<tclap/ArgTraits.h>
+	<tclap/StandardTraits.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/ArgException.h
+	<string>
+	<exception>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/Visitor.h
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/CmdLineInterface.h
+	<string>
+	<vector>
+	<list>
+	<iostream>
+	<algorithm>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/ArgTraits.h
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/StandardTraits.h
+	<config.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/MultiSwitchArg.h
+	<string>
+	<vector>
+	<tclap/SwitchArg.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/UnlabeledValueArg.h
+	<string>
+	<vector>
+	<tclap/ValueArg.h>
+	<tclap/OptionalUnlabeledTracker.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/ValueArg.h
+	<string>
+	<vector>
+	<tclap/Arg.h>
+	<tclap/Constraint.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/Constraint.h
+	<string>
+	<vector>
+	<list>
+	<iostream>
+	<iomanip>
+	<algorithm>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/OptionalUnlabeledTracker.h
+	<string>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/UnlabeledMultiArg.h
+	<string>
+	<vector>
+	<tclap/MultiArg.h>
+	<tclap/OptionalUnlabeledTracker.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/MultiArg.h
+	<string>
+	<vector>
+	<tclap/Arg.h>
+	<tclap/Constraint.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/XorHandler.h
+	<tclap/Arg.h>
+	<string>
+	<vector>
+	<algorithm>
+	<iostream>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/HelpVisitor.h
+	<tclap/CmdLineInterface.h>
+	<tclap/CmdLineOutput.h>
+	<tclap/Visitor.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/CmdLineOutput.h
+	<string>
+	<vector>
+	<list>
+	<iostream>
+	<iomanip>
+	<algorithm>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/VersionVisitor.h
+	<tclap/CmdLineInterface.h>
+	<tclap/CmdLineOutput.h>
+	<tclap/Visitor.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/IgnoreRestVisitor.h
+	<tclap/Visitor.h>
+	<tclap/Arg.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/StdOutput.h
+	<string>
+	<vector>
+	<list>
+	<iostream>
+	<algorithm>
+	<tclap/CmdLineInterface.h>
+	<tclap/CmdLineOutput.h>
+	<tclap/XorHandler.h>
+	<tclap/Arg.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/tclap-1.2.1/include/tclap/ValuesConstraint.h
+	<string>
+	<vector>
+	<tclap/Constraint.h>
+	<config.h>
+	<sstream>
+	<strstream>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/NiceCmdLineOutput.h
+	<tclap/StdOutput.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/exceptions.h
+	<string>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/rhubarb/sinks.h
+	"logging/Entry.h"
+	"logging/Sink.h"
+	"tools/ProgressBar.h"
+	<boost/filesystem/path.hpp>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/ProgressBar.h
+	<atomic>
+	<future>
+	<iostream>
+	"progress.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/rhubarb/semanticEntries.h
+	"logging/Entry.h"
+	<boost/filesystem/path.hpp>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/rhubarb/RecognizerType.h
+	"tools/EnumConverter.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/rhubarb/RecognizerType.cpp
+	"RecognizerType.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/rhubarb/semanticEntries.cpp
+	"semanticEntries.h"
+
+1579661867 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/rhubarb/sinks.cpp
+	"sinks.h"
+	"logging/sinks.h"
+	"logging/formatters.h"
+	"semanticEntries.h"
+	"tools/stringTools.h"
+	"core/appInfo.h"
+	<boost/utility/in_place_factory.hpp>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/time/centiseconds.cpp
+	<chrono>
+	<ostream>
+	"centiseconds.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/time/TimeRange.cpp
+	"TimeRange.h"
+	<stdexcept>
+	<ostream>
+	<format.h>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/exceptions.cpp
+	"exceptions.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/fileTools.cpp
+	"fileTools.h"
+	<cerrno>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/NiceCmdLineOutput.cpp
+	"regex"
+	"NiceCmdLineOutput.h"
+	"platformTools.h"
+	"TablePrinter.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/TablePrinter.h
+	<initializer_list>
+	<ostream>
+	<vector>
+
+1579662815 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/platformTools.cpp
+	<boost/filesystem/operations.hpp>
+	<boost/filesystem/path.hpp>
+	<format.h>
+	<boost/uuid/uuid.hpp>
+	<boost/uuid/uuid_generators.hpp>
+	<boost/uuid/uuid_io.hpp>
+	"platformTools.h"
+	<whereami.h>
+	<utf8.h>
+	<gsl_util.h>
+	"tools.h"
+	<boost/filesystem/detail/utf8_codecvt_facet.hpp>
+	<iostream>
+	<Windows.h>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/whereami/src/whereami.h
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/utfcpp-2.3.5/source/utf8.h
+	"utf8/checked.h"
+	"utf8/unchecked.h"
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/utfcpp-2.3.5/source/utf8/checked.h
+	"core.h"
+	<stdexcept>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/utfcpp-2.3.5/source/utf8/core.h
+	<iterator>
+
+1579657198 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/lib/utfcpp-2.3.5/source/utf8/unchecked.h
+	"core.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/progress.cpp
+	"progress.h"
+	<mutex>
+	"logging/logging.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/ProgressBar.cpp
+	"ProgressBar.h"
+	<algorithm>
+	<future>
+	<chrono>
+	<format.h>
+	<boost/algorithm/clamp.hpp>
+	<cmath>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/stringTools.cpp
+	<boost/algorithm/string/trim.hpp>
+	<utf8.h>
+	<utf8proc.h>
+	<regex>
+	<format.h>
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/TablePrinter.cpp
+	"TablePrinter.h"
+	<algorithm>
+	<iomanip>
+	<boost/io/ios_state.hpp>
+	"stringTools.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/textFiles.cpp
+	"textFiles.h"
+	<boost/filesystem/operations.hpp>
+	<format.h>
+	<boost/filesystem/fstream.hpp>
+	"stringTools.h"
+
+1579657198 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/emscripten-projects/rhubarb-lip-sync/rhubarb/src/tools/tools.cpp
+	"tools.h"
+	"platformTools.h"
+	<format.h>
+	<chrono>
+	<vector>
+

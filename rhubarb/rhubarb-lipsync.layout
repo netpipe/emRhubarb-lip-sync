@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="src/tools/platformTools.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1248" topLine="2" />
+		</Cursor>
+		<Folding>
+			<Collapse line="57" />
+			<Collapse line="64" />
+			<Collapse line="74" />
+			<Collapse line="84" />
+			<Collapse line="121" />
+			<Collapse line="136" />
+			<Collapse line="149" />
+		</Folding>
+	</File>
+	<File name="src/rhubarb/sinks.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2548" topLine="6" />
+		</Cursor>
+		<Folding>
+			<Collapse line="21" />
+			<Collapse line="47" />
+			<Collapse line="52" />
+			<Collapse line="57" />
+			<Collapse line="90" />
+			<Collapse line="98" />
+		</Folding>
+	</File>
+	<File name="src/audio/OggVorbisFileReader.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="281" topLine="3" />
+		</Cursor>
+		<Folding>
+			<Collapse line="14" />
+			<Collapse line="44" />
+			<Collapse line="55" />
+			<Collapse line="65" />
+			<Collapse line="76" />
+			<Collapse line="84" />
+			<Collapse line="122" />
+			<Collapse line="132" />
+			<Collapse line="136" />
+		</Folding>
+	</File>
+	<File name="src/rhubarb/main.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3903" topLine="22" />
+		</Cursor>
+		<Folding>
+			<Collapse line="48" />
+			<Collapse line="65" />
+			<Collapse line="74" />
+			<Collapse line="85" />
+			<Collapse line="105" />
+		</Folding>
+	</File>
+	<File name="src/recognition/g2p.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="12" />
+			<Collapse line="24" />
+			<Collapse line="71" />
+		</Folding>
+	</File>
+	<File name="src/recognition/languageModels.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4986" topLine="9" />
+		</Cursor>
+		<Folding>
+			<Collapse line="25" />
+			<Collapse line="33" />
+			<Collapse line="41" />
+			<Collapse line="51" />
+			<Collapse line="65" />
+			<Collapse line="80" />
+			<Collapse line="95" />
+			<Collapse line="100" />
+			<Collapse line="114" />
+			<Collapse line="119" />
+			<Collapse line="189" />
+		</Folding>
+	</File>
+	<EditorTabsLayout layout="039232d0605063ad000f4ecb00000002=*0;Rhubarb- Lipsync:src/recognition/g2p.cpp,1;Rhubarb- Lipsync:src/recognition/languageModels.cpp,2;Rhubarb- Lipsync:src/rhubarb/sinks.cpp,3;Rhubarb- Lipsync:src/rhubarb/main.cpp,4;Rhubarb- Lipsync:src/tools/platformTools.cpp,5;Rhubarb- Lipsync:src/audio/OggVorbisFileReader.cpp@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=333;besth=350;minw=333;minh=350;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=039232d0605063ad000f4ecb00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
+</CodeBlocks_layout_file>

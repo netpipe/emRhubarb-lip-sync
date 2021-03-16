@@ -1,0 +1,102 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0cfce/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0cfce.dir/build.make CMakeFiles/cmTC_0cfce.dir/build
+gmake[1]: Entering directory '/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0cfce.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0cfce.dir/CheckSymbolExists.c.o   -c /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0cfce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cfce.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0cfce.dir/CheckSymbolExists.c.o  -o cmTC_0cfce 
+/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/bin/ld: CMakeFiles/cmTC_0cfce.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_0cfce.dir/build.make:98: cmTC_0cfce] Error 1
+gmake[1]: Leaving directory '/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_0cfce/fast] Error 2
+
+File /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_31dd3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_31dd3.dir/build.make CMakeFiles/cmTC_31dd3.dir/build
+gmake[1]: Entering directory '/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31dd3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_31dd3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_31dd3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31dd3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_31dd3.dir/CheckFunctionExists.c.o  -o cmTC_31dd3 -lpthreads 
+/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_31dd3.dir/build.make:98: cmTC_31dd3] Error 1
+gmake[1]: Leaving directory '/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_31dd3/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1a236/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1a236.dir/build.make CMakeFiles/cmTC_1a236.dir/build
+gmake[1]: Entering directory '/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a236.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1a236.dir/CheckSymbolExists.c.o   -c /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1a236
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a236.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1a236.dir/CheckSymbolExists.c.o  -o cmTC_1a236 
+/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/bin/ld: CMakeFiles/cmTC_1a236.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_1a236.dir/build.make:98: cmTC_1a236] Error 1
+gmake[1]: Leaving directory '/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_1a236/fast] Error 2
+
+File /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a1081/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a1081.dir/build.make CMakeFiles/cmTC_a1081.dir/build
+gmake[1]: Entering directory '/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1081.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a1081.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a1081
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1081.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a1081.dir/CheckFunctionExists.c.o  -o cmTC_a1081 -lpthreads 
+/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_a1081.dir/build.make:98: cmTC_a1081] Error 1
+gmake[1]: Leaving directory '/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_a1081/fast] Error 2
+
+

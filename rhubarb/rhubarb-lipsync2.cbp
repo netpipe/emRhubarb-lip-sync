@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Rhubarb- Lipsync" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="./rhubarb" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="arduino/variants/standard" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="./rhubarb" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-x c++" />
+			<Add option="-DARDUSIM" />
+			<Add option="-DENABLE_API_NAME" />
+			<Add option="-D__AVR_ATmega328P__" />
+			<Add option="-DARDUINO=100" />
+			<Add directory="arduino/cores" />
+			<Add directory="arduino/variants/standard" />
+			<Add directory="include" />
+			<Add directory="./" />
+			<Add directory="./src" />
+			<Add directory="./lib/cppformat" />
+			<Add directory="./lib/webrtc-8d2248ff" />
+			<Add directory="./lib/gsl/include" />
+			<Add directory="./lib/tclap-1.2.1/include" />
+			<Add directory="./lib/utf8proc-2.2.0" />
+			<Add directory="./lib/pocketsphinx-rev13216/include" />
+			<Add directory="./lib/flite-1.4/include" />
+			<Add directory="./lib/ogg-1.3.3/include" />
+			<Add directory="./lib/sphinxbase-rev13216/include" />
+			<Add directory="./lib/pocketsphinx-rev13216/src/libpocketsphinx" />
+			<Add directory="./lib/flite-1.4/" />
+			<Add directory="./lib/whereami/src" />
+			<Add directory="./lib/utfcpp-2.3.5/source" />
+			<Add directory="./lib/sphinxbase-rev13216/include/" />
+			<Add directory="src/recognition" />
+			<Add directory="lib/sphinx_config" />
+		</Compiler>
+		<Linker>
+			<Add library="pocketSphinx" />
+			<Add library="/home/netpipe/Desktop/rhubarb-lip-sync/rhubarb/libogg.a" />
+			<Add library="boost_system" />
+			<Add library="pthread" />
+			<Add library="sphinxbase" />
+			<Add library="boost_filesystem" />
+			<Add library="utf8proc" />
+			<Add library="flite" />
+			<Add library="whereami" />
+			<Add library="vorbis" />
+			<Add library="webRtc" />
+			<Add library="cppFormat" />
+			<Add directory="./lib/fmt" />
+			<Add directory="./lib/ogg-1.3.3/" />
+			<Add directory="./lib/pocketsphinx-rev13216/src/libpocketsphinx/.libs" />
+			<Add directory="./lib/sphinxbase-rev13216/lib64" />
+			<Add directory="./lib/utf8proc-2.2.0" />
+			<Add directory="./lib/whereami/bin/linux-x86_64" />
+			<Add directory="./" />
+		</Linker>
+		<Unit filename="src/animation/ShapeRule.cpp" />
+		<Unit filename="src/animation/ShapeRule.h" />
+		<Unit filename="src/animation/animationRules.cpp" />
+		<Unit filename="src/animation/animationRules.h" />
+		<Unit filename="src/animation/mouthAnimation.cpp" />
+		<Unit filename="src/animation/mouthAnimation.h" />
+		<Unit filename="src/animation/pauseAnimation.cpp" />
+		<Unit filename="src/animation/pauseAnimation.h" />
+		<Unit filename="src/animation/roughAnimation.cpp" />
+		<Unit filename="src/animation/roughAnimation.h" />
+		<Unit filename="src/animation/shapeShorthands.h" />
+		<Unit filename="src/animation/staticSegments.cpp" />
+		<Unit filename="src/animation/staticSegments.h" />
+		<Unit filename="src/animation/targetShapeSet.cpp" />
+		<Unit filename="src/animation/targetShapeSet.h" />
+		<Unit filename="src/animation/timingOptimization.cpp" />
+		<Unit filename="src/animation/timingOptimization.h" />
+		<Unit filename="src/animation/tweening.cpp" />
+		<Unit filename="src/animation/tweening.h" />
+		<Unit filename="src/audio/AudioClip.cpp" />
+		<Unit filename="src/audio/AudioClip.h" />
+		<Unit filename="src/audio/AudioSegment.cpp" />
+		<Unit filename="src/audio/AudioSegment.h" />
+		<Unit filename="src/audio/DcOffset.cpp" />
+		<Unit filename="src/audio/DcOffset.h" />
+		<Unit filename="src/audio/OggVorbisFileReader.cpp" />
+		<Unit filename="src/audio/OggVorbisFileReader.h" />
+		<Unit filename="src/audio/SampleRateConverter.cpp" />
+		<Unit filename="src/audio/SampleRateConverter.h" />
+		<Unit filename="src/audio/WaveFileReader.cpp" />
+		<Unit filename="src/audio/WaveFileReader.h" />
+		<Unit filename="src/audio/audioFileReading.cpp" />
+		<Unit filename="src/audio/audioFileReading.h" />
+		<Unit filename="src/audio/ioTools.h" />
+		<Unit filename="src/audio/processing.cpp" />
+		<Unit filename="src/audio/processing.h" />
+		<Unit filename="src/audio/voiceActivityDetection.cpp" />
+		<Unit filename="src/audio/voiceActivityDetection.h" />
+		<Unit filename="src/audio/waveFileWriting.cpp" />
+		<Unit filename="src/audio/waveFileWriting.h" />
+		<Unit filename="src/core/Phone.cpp" />
+		<Unit filename="src/core/Phone.h" />
+		<Unit filename="src/core/Shape.cpp" />
+		<Unit filename="src/core/Shape.h" />
+		<Unit filename="src/core/appInfo.h" />
+		<Unit filename="src/exporters/DatExporter.cpp" />
+		<Unit filename="src/exporters/DatExporter.h" />
+		<Unit filename="src/exporters/Exporter.h" />
+		<Unit filename="src/exporters/JsonExporter.cpp" />
+		<Unit filename="src/exporters/JsonExporter.h" />
+		<Unit filename="src/exporters/TsvExporter.cpp" />
+		<Unit filename="src/exporters/TsvExporter.h" />
+		<Unit filename="src/exporters/XmlExporter.cpp" />
+		<Unit filename="src/exporters/XmlExporter.h" />
+		<Unit filename="src/exporters/exporterTools.cpp" />
+		<Unit filename="src/exporters/exporterTools.h" />
+		<Unit filename="src/lib/rhubarbLib.cpp" />
+		<Unit filename="src/lib/rhubarbLib.h" />
+		<Unit filename="src/logging/Entry.cpp" />
+		<Unit filename="src/logging/Entry.h" />
+		<Unit filename="src/logging/Formatter.h" />
+		<Unit filename="src/logging/Level.cpp" />
+		<Unit filename="src/logging/Level.h" />
+		<Unit filename="src/logging/Sink.h" />
+		<Unit filename="src/logging/formatters.cpp" />
+		<Unit filename="src/logging/formatters.h" />
+		<Unit filename="src/logging/logging.cpp" />
+		<Unit filename="src/logging/logging.h" />
+		<Unit filename="src/logging/sinks.cpp" />
+		<Unit filename="src/logging/sinks.h" />
+		<Unit filename="src/recognition/PhoneticRecognizer.cpp" />
+		<Unit filename="src/recognition/PhoneticRecognizer.h" />
+		<Unit filename="src/recognition/PocketSphinxRecognizer.cpp" />
+		<Unit filename="src/recognition/PocketSphinxRecognizer.h" />
+		<Unit filename="src/recognition/Recognizer.h" />
+		<Unit filename="src/recognition/g2p.cpp" />
+		<Unit filename="src/recognition/g2p.h" />
+		<Unit filename="src/recognition/languageModels.cpp" />
+		<Unit filename="src/recognition/languageModels.h" />
+		<Unit filename="src/recognition/pocketSphinxTools.cpp" />
+		<Unit filename="src/recognition/pocketSphinxTools.h" />
+		<Unit filename="src/recognition/tokenization.cpp" />
+		<Unit filename="src/recognition/tokenization.h" />
+		<Unit filename="src/rhubarb/ExportFormat.cpp" />
+		<Unit filename="src/rhubarb/ExportFormat.h" />
+		<Unit filename="src/rhubarb/RecognizerType.cpp" />
+		<Unit filename="src/rhubarb/RecognizerType.h" />
+		<Unit filename="src/rhubarb/main.cpp" />
+		<Unit filename="src/rhubarb/semanticEntries.cpp" />
+		<Unit filename="src/rhubarb/semanticEntries.h" />
+		<Unit filename="src/rhubarb/sinks.cpp" />
+		<Unit filename="src/rhubarb/sinks.h" />
+		<Unit filename="src/time/BoundedTimeline.h" />
+		<Unit filename="src/time/ContinuousTimeline.h" />
+		<Unit filename="src/time/TimeRange.cpp" />
+		<Unit filename="src/time/TimeRange.h" />
+		<Unit filename="src/time/Timed.h" />
+		<Unit filename="src/time/Timeline.h" />
+		<Unit filename="src/time/centiseconds.cpp" />
+		<Unit filename="src/time/centiseconds.h" />
+		<Unit filename="src/time/timedLogging.h" />
+		<Unit filename="src/tools/EnumConverter.h" />
+		<Unit filename="src/tools/Lazy.h" />
+		<Unit filename="src/tools/NiceCmdLineOutput.cpp" />
+		<Unit filename="src/tools/NiceCmdLineOutput.h" />
+		<Unit filename="src/tools/ObjectPool.h" />
+		<Unit filename="src/tools/ProgressBar.cpp" />
+		<Unit filename="src/tools/ProgressBar.h" />
+		<Unit filename="src/tools/TablePrinter.cpp" />
+		<Unit filename="src/tools/TablePrinter.h" />
+		<Unit filename="src/tools/array.h" />
+		<Unit filename="src/tools/exceptions.cpp" />
+		<Unit filename="src/tools/exceptions.h" />
+		<Unit filename="src/tools/fileTools.cpp" />
+		<Unit filename="src/tools/fileTools.h" />
+		<Unit filename="src/tools/nextCombination.h" />
+		<Unit filename="src/tools/pairs.h" />
+		<Unit filename="src/tools/parallel.h" />
+		<Unit filename="src/tools/platformTools.cpp" />
+		<Unit filename="src/tools/platformTools.h" />
+		<Unit filename="src/tools/progress.cpp" />
+		<Unit filename="src/tools/progress.h" />
+		<Unit filename="src/tools/stringTools.cpp" />
+		<Unit filename="src/tools/stringTools.h" />
+		<Unit filename="src/tools/textFiles.cpp" />
+		<Unit filename="src/tools/textFiles.h" />
+		<Unit filename="src/tools/tools.cpp" />
+		<Unit filename="src/tools/tools.h" />
+		<Unit filename="src/tools/tupleHash.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
